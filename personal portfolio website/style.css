@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(4, 4, 25);
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  background-color: rgb(62, 62, 138);
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover {
+  color: rgb(4, 4, 25);
+  font-size: 1.05rem;
+}
+.left {
+  font-size: 1.5rem;
+}
+.firstsection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 130px 0;
+}
+.firstsection > div {
+  width: 30%;
+}
+.leftsection {
+  font-size: 2.5rem;
+}
+.leftsection .button {
+  padding: 50px 0;
+}
+.leftsection .btn {
+  padding: 12px;
+  background: #1e2167;
+  color: white;
+  border: 2px solid white;
+  border-radius: 6px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.rightsection img {
+  width: 80%;
+}
+.purple {
+  color: blueviolet;
+}
+#element {
+  color: blueviolet;
+}
+main hr {
+  border: 0;
+  background: #9c97f1;
+  height: 1.02px;
+  margin: 40px 84px;
+}
+
+.text-grey {
+  color: grey;
+}
+.secondsection,
+.thirdsection,
+.fourthsection,
+.fifthsection {
+  max-width: 80vw;
+  margin: auto;
+  height: 80vh;
+}
+.secondsection h1,
+.thirdsection h1,
+.fourthsection h1,
+.fifthsection h1 {
+  font-size: 1.9rem;
+}
+.secondsection .box,
+.thirdsection .box,
+.fourthsection .box,
+.fifthsection .box {
+  background: wheat;
+  width: 80vw;
+  height: 2px;
+  margin: 56px 0;
+  display: flex;
+}
+.secondsection .vertical,
+.thirdsection .vertical,
+.fourthsection .vertical,
+.fifthsection .vertical {
+  height: 93px;
+  width: 1px;
+  background-color: white;
+  margin: 0 auto;
+}
+.image-top {
+  width: 30px;
+  position: relative;
+  top: -32px;
+  left: -9px;
+}
+.vertical-title {
+  position: relative;
+  width: 150px;
+  top: 75px;
+}
+.vertical-desc {
+  position: relative;
+  top: 86px;
+  width: 150px;
+  color: gray;
+  font-size: 10px;
+}
+
+footer {
+  background-color: rgb(61, 110, 160);
+}
+.footer {
+  display: flex;
+  padding: 23px 122px;
+  justify-content: space-evenly;
+}
+.footer ul {
+  list-style: none;
+}
+.footer > div {
+  width: 220px;
+}
+footer .footer-rights {
+  text-align: center;
+  color: rgb(37, 14, 14);
+  padding: 12px 0;
+}
